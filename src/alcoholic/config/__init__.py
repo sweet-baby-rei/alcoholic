@@ -4,7 +4,7 @@ from pathlib import Path
 CONFIG_FILE = Path.home() / ".alcoholic.json"
 LOCALE_FILE = Path(__file__).parent / "locale.json"
 
-LOCALES = json.loads(LOCALE_FILE.read_text())
+LOCALES = json.loads(LOCALE_FILE.read_text(encoding="utf-8"))
 
 VOLUME_UNITS = {
     "L": 1.0,
