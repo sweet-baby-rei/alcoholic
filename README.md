@@ -23,7 +23,13 @@
 
 ## 🚀 Installation
 
-Because `alcoholic` is a standalone CLI tool, it's highly recommended to install it globally using `uv` (or `pipx`):
+`alcoholic` is available on PyPI:
+
+```
+pip install alcoholic
+```
+
+Since `alcoholic` is a standalone CLI tool, you may want to install it globally using **[uv](https://docs.astral.sh/uv/)** or **[pipx](https://pipx.pypa.io/stable/)**:
 
 ```bash
 uv tool install alcoholic
