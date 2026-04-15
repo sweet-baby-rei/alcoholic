@@ -7,7 +7,7 @@ name = "alcoholic"
 version = "0.1.0"
 description = "A CLI tool to calculate alcohol value proposition."
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.9"
 dependencies = [
     "typer[all]>=0.9.0",
 ]
@@ -18,8 +18,19 @@ alcoholic-config = "alcoholic.cli:config_cli"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/alcoholic"]
-artifacts = ["*.json"]
+artifacts = ["*.json", "*.typed"]
 
 [tool.hatch.build.targets.sdist]
 include = ["src/alcoholic"]
-artifacts = ["*.json"]
+artifacts = ["*.json", "*.typed"]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.15.0",
+    "pyfakefs>=5.9.2",
+    "pytest>=8.3.4",
+    "pytest-cov>=6.0.0",
+    "pytest-mock>=3.14.0",
+    "requests-mock>=1.12.1",
+    "ruff>=0.8.4"
+]

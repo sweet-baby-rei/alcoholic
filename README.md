@@ -6,7 +6,7 @@ CLI calculator for alcohol value.
 
 ---
 
-```bash
+```text
 $ alcoholic 2.5 --beer
 ╭───────────────────────────────────────────────────────────────────────────╮
 │  Receipt Summary:      0.50 L (inferred) @ 5.0% ABV (inferred) for $2.50  │
@@ -17,7 +17,7 @@ $ alcoholic 2.5 --beer
 ╰───────────────────────────────────────────────────────────────────────────╯
 ```
 
-```bash
+```text
 $ alcoholic 14 --wine
 ╭───────────────────────────────────────────────────────────────────────────────────╮
 │  Receipt Summary:            0.75 L (inferred) @ 12.0% ABV (inferred) for $14.00  │
