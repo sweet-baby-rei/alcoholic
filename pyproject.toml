@@ -13,7 +13,13 @@ dependencies = [
 ]
 
 [project.scripts]
-alcoholic = "alcoholic.cli:app"
+alcoholic = "alcoholic.cli:calc_cli"
+alcoholic-config = "alcoholic.cli:config_cli"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/alcoholic"]
+artifacts = ["*.json"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src/alcoholic"]
+artifacts = ["*.json"]

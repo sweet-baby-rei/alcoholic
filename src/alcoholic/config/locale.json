@@ -1,0 +1,28 @@
+{
+    "en": {
+        "error_zero": "Quantity and ABV must be greater than zero.",
+        "receipt_summary": "Receipt Summary:",
+        "pure_vol": "Pure Ethanol Volume:",
+        "cost_per": "Cost per Pure",
+        "verdict": "Verdict:",
+        "title": "Bang for your Buck",
+        "excellent": "Excellent Deal 🏆",
+        "good": "Good Deal 🍻",
+        "average": "Average 🤷",
+        "expensive": "Expensive 💸",
+        "error_unit": "Unknown volume unit"
+    },
+    "es": {
+        "error_zero": "La cantidad y el ABV deben ser mayores que cero.",
+        "receipt_summary": "Resumen del recibo:",
+        "pure_vol": "Volumen de Etanol Puro:",
+        "cost_per": "Costo por",
+        "verdict": "Veredicto:",
+        "title": "Valor por tu Dinero",
+        "excellent": "Excelente Oferta 🏆",
+        "good": "Buena Oferta 🍻",
+        "average": "Promedio 🤷",
+        "expensive": "Caro 💸",
+        "error_unit": "Unidad de volumen desconocida"
+    }
+}
