@@ -5,7 +5,6 @@
 <p align="center">
     <img src="https://img.shields.io/badge/Python-3.9_%7C_3.10_%7C_3.11_%7C_3.12_%7C_3.13_%7C_3.14-blue.svg" alt="Python Versions">
 </p>
-
 <p align="center">
     <a href="https://github.com/sweet-baby-rei/alcoholic/actions">
         <img src="https://github.com/sweet-baby-rei/alcoholic/actions/workflows/ci.yml/badge.svg" alt="Tests">
