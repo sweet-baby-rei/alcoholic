@@ -6,10 +6,7 @@
     <a href="https://github.com/sweet-baby-rei/alcoholic/actions"><img src="https://github.com/sweet-baby-rei/alcoholic/actions/workflows/ci.yml/badge.svg" alt="Tests"></a>
     <a href="https://codecov.io/gh/sweet-baby-rei/alcoholic"><img src="https://img.shields.io/badge/Coverage-100%25-brightgreen.svg" alt="Coverage 100%"></a>
     <img src="https://img.shields.io/badge/Python-3.9_%7C_3.10_%7C_3.11_%7C_3.12_%7C_3.13_%7C_3.14-blue.svg" alt="Python Versions">
-    <img src="https://img.shields.io/badge/OS-Linux_%7C_macOS_%7C_Windows-blue.svg" alt="OS Support">
     <a href="https://github.com/astral-sh/ruff"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json" alt="Ruff"></a>
-    <img src="https://img.shields.io/badge/types-Mypy-blue.svg" alt="Mypy Checked">
-    <img src="https://img.shields.io/badge/CLI-Typer-white.svg" alt="Typer">
 </p>
 
 > A CLI tool to calculate the true *Bang for your Buck* of alcohol purchases. Evaluates the cost of pure ethanol across different currencies, volumes, and drink categories.
