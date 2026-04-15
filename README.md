@@ -61,6 +61,36 @@ $ alcoholic --price 17 --abv 13.5 --wine
 ╰───────────────────────────────────────────────────────────────────────────────────╯
 ```
 
+```text
+$ alcoholic --help
+
+ Usage: alcoholic [OPTIONS] [PRICE] [QUANTITY]
+
+ Calculates the cost per pure unit of ethanol.
+
+╭─ Arguments ───────────────────────────────────────────────────────────────────────────────────╮
+│   pos_price         [PRICE]     Total price (Positional)                                      │
+│   pos_quantity      [QUANTITY]  Volume quantity (Positional)                                  │
+╰───────────────────────────────────────────────────────────────────────────────────────────────╯
+╭─ Options ─────────────────────────────────────────────────────────────────────────────────────╮
+│ --price                           -p      FLOAT  Total price (Flag)                           │
+│ --quantity                        -q      FLOAT  Volume quantity (Flag)                       │
+│ --abv                             -a      FLOAT  Alcohol percentage (e.g., 13.5)              │
+│ --unit                            -u      TEXT   Override default volume unit                 │
+│ --currency                        -c      TEXT   Currency code (e.g., USD, JPY, GBP)          │
+│ --offline                                        Skip live API conversion                     │
+│ --beer                                           Evaluate as Beer (Defaults 5% ABV, 0.5L)     │
+│ --cider                                          Evaluate as Cider (Defaults 5% ABV, 0.5L)    │
+│ --wine                                           Evaluate as Wine (Defaults 13% ABV, 0.75L)   │
+│ --liqueur,--sake,--soju,--port                   Evaluate as Liqueur (Defaults 20% ABV, 0.7L) │
+│ --spirit,--vodka,--rum,--whiskey  -s             Evaluate as Spirit (Defaults 40% ABV, 0.7L)  │
+│ --install-completion                             Install completion for the current shell.    │
+│ --show-completion                                Show completion for the current shell, to    │
+│                                                  copy it or customize the installation.       │
+│ --help                                           Show this message and exit.                  │
+╰───────────────────────────────────────────────────────────────────────────────────────────────╯
+```
+
 ## ⚙️ Configuration
 
 Use `alcoholic-config` to set your defaults:
