@@ -1,4 +1,6 @@
-<img src="assets/logo.webp" alt="Project Logo" align="center" width="500">
+<p align="center">
+    <img src="assets/logo.webp" alt="Project Logo" width="520">
+</p>
 
 Are you standing in a supermarket aisle, staring at a wall of liquids, trying to figure out if that "Value Vodka" is actually a better deal than the discounted case of Kopparberg? Stop doing mental math while sober—let your terminal do it for you.
 
