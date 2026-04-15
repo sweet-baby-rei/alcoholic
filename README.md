@@ -17,7 +17,7 @@
     </a>
 </p>
 
-> A CLI tool to calculate the true *Bang for your Buck* of alcohol purchases. Evaluates the cost of pure ethanol across different currencies, volumes, and drink categories.
+> A CLI tool to calculate the *Bang for your Buck* of alcohol purchases. Evaluates the cost of pure ethanol across different currencies, volumes, and drink categories.
 
 ---
 
@@ -29,7 +29,7 @@
 pip install alcoholic
 ```
 
-Since `alcoholic` is a standalone CLI tool, you may want to install it globally using **[uv](https://docs.astral.sh/uv/)** or **[pipx](https://pipx.pypa.io/stable/)**:
+As `alcoholic` is a standalone CLI tool, you may want to install it globally using **[uv](https://docs.astral.sh/uv/)** or **[pipx](https://pipx.pypa.io/stable/)**:
 
 ```bash
 uv tool install alcoholic
