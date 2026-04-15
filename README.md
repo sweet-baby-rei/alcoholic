@@ -18,11 +18,11 @@ $ alcoholic 2.5 --beer
 ```
 
 ```text
-$ alcoholic 14 --wine
+$ alcoholic --price 17 --abv 13.5 --wine
 ╭───────────────────────────────────────────────────────────────────────────────────╮
-│  Receipt Summary:            0.75 L (inferred) @ 12.0% ABV (inferred) for $14.00  │
-│  Pure Ethanol Volume:                                                    0.090 L  │
-│  Cost per Pure L:                                                        £155.56  │
+│  Receipt Summary:                       0.75 L (inferred) @ 13.5% ABV for £17.00  │
+│  Pure Ethanol Volume:                                                    0.101 L  │
+│  Cost per Pure L:                                                        £167.90  │
 │  Verdict:                                                              Expensive  │
 │                        Premium pricing. This should be a fine wine or champagne.  │
 ╰───────────────────────────────────────────────────────────────────────────────────╯
