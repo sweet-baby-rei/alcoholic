@@ -103,7 +103,7 @@ alcoholic-config --unit pt --currency GBP
 alcoholic-config
 ```
 
-Your settings are safely tucked away in `~/.alcoholic.json`.
+Settings are saved to `~/.alcoholic.json`.
 
 ---
 
