@@ -12,13 +12,13 @@ def get_verdict(category: str, rating: str) -> str:
             "excellent": "[bold green]Excellent[/bold green] (A steal, even for bottom-shelf spirits!)",
             "good": "[bold blue]Good Price 🍻[/bold blue]",
             "average": "[bold yellow]Average 🤷[/bold yellow]\n[dim]Good deal for beer/cider, slightly overpriced for cheap spirits.[/dim]",
-            "expensive": "[bold red]Expensive 💸[/bold red] (Only justifiable for craft beer or premium spirits)"
+            "expensive": "[bold red]Expensive 💸[/bold red] (Justifiable for craft beer or premium spirits)"
         },
         "beer_cider": {
             "excellent": "[bold green]Excellent Deal 🏆[/bold green]\n[dim]This is cheaper than standard supermarket multi-packs.[/dim]",
             "good": "[bold blue]Good Price 🍻[/bold blue]\n[dim]Solid value for standard beer or cider.[/dim]",
             "average": "[bold yellow]Average 🤷[/bold yellow]\n[dim]Standard pub/bar price, or slightly pricey for a supermarket grab.[/dim]",
-            "expensive": "[bold red]Expensive 💸[/bold red]\n[dim]Only justifiable if this is a high-end craft brew or imported specialty.[/dim]"
+            "expensive": "[bold red]Expensive 💸[/bold red]\n[dim]Justifiable for high-end craft brew or imported specialty.[/dim]"
         },
         "wine": {
             "excellent": "[bold green]Excellent Deal 🏆[/bold green]\n[dim]Bargain bin pricing. If it tastes good, stock up![/dim]",

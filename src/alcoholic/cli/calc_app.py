@@ -172,7 +172,6 @@ def calculate(
 
     panel = Panel(
         table, 
-        title="[bold]Bang for your Buck[/bold]", 
         expand=False, 
         border_style="blue"
     )
