@@ -1,6 +1,4 @@
-# 🍺 Alcoholic CLI: The "Bang for your Buck" Optimizer
-
-<img src="assets/logo.webp" alt="Project Logo" width="500">
+<img src="assets/logo.webp" alt="Project Logo" align="center" width="500">
 
 Are you standing in a supermarket aisle, staring at a wall of liquids, trying to figure out if that "Value Vodka" is actually a better deal than the discounted case of Kopparberg? Stop doing mental math while sober—let your terminal do it for you.
 
