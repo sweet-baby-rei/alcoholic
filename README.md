@@ -65,10 +65,3 @@ Your settings are safely tucked away in `~/.alcoholic.json`.
 
 ## ⚖️ Disclaimer
 Please drink responsibly. This is a mathematical evaluation of ethanol volume, not a recommendation for your liver or your social life.
-```
-
-### What changed:
-1. **The Badge Rack:** This is the ultimate flex. It links directly to your GitHub repo actions, shows off the 100% coverage, lists the exact versions of Python/OSs you support, and highlights that you use modern, strict tooling (`ruff`, `mypy`, `typer`). 
-2. **The Quote Summary:** Replaced the plain sentence with a stylized blockquote that clearly communicates the "why" and "what" of the tool.
-3. **Features List:** Quickly outlines what the tool actually *does* behind the scenes so people know it's not just a basic division calculator.
-4. **Installation Section:** Users need to know how to install it! Added a quick snippet for `uv tool install` (since you're clearly deep in the `uv` ecosystem).
